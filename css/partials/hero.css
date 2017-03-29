@@ -1,0 +1,94 @@
+#hero {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/italian-7.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/italian-7.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/italian-7.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 120vh;
+  min-height: 445px;
+  z-index: 1; }
+  #hero .header {
+    margin-top: 25vh;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    text-align: center;
+    color: #fff; }
+    #hero .header .header-top {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      #hero .header .header-top:before {
+        border-radius: 3px 0 0 0;
+        display: block;
+        content: "";
+        flex: 2 0 0;
+        height: 1px;
+        border-top: 2px solid #fff; }
+      #hero .header .header-top:after {
+        border-radius: 0 3px 0 0;
+        display: block;
+        content: "";
+        flex: 2 0 0;
+        height: 1px;
+        border-top: 2px solid #fff; }
+      #hero .header .header-top .top-content {
+        flex: 0 0 70px;
+        margin-top: -20px;
+        text-align: center; }
+        #hero .header .header-top .top-content img {
+          width: 85px;
+          padding-left: 6px;
+          padding-right: 6px; }
+    #hero .header .header-bottom {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+      #hero .header .header-bottom:before {
+        border-radius: 3px 0 0 0;
+        display: block;
+        content: "";
+        flex: 2 0 0;
+        height: 1px;
+        border-bottom: 2px solid #fff; }
+      #hero .header .header-bottom:after {
+        border-radius: 0 3px 0 0;
+        display: block;
+        content: "";
+        flex: 2 0 0;
+        height: 1px;
+        border-bottom: 2px solid #fff; }
+      #hero .header .header-bottom .bottom-content {
+        flex: 0 0 70px;
+        margin-top: -42px;
+        text-align: center; }
+        #hero .header .header-bottom .bottom-content img {
+          width: 85px;
+          padding-left: 6px;
+          padding-right: 6px;
+          margin-bottom: -68px; }
+    #hero .header h1 {
+      font-family: 'Nixie One';
+      font-size: 6em;
+      letter-spacing: 5px; }
+  #hero .address-row {
+    margin-top: 10vh; }
+    #hero .address-row .address {
+      font-family: Open Sans;
+      font-size: 1.3em;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #fff; }
+
+/*# sourceMappingURL=hero.css.map */

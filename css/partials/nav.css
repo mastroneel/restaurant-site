@@ -1,0 +1,24 @@
+.nav-desktop {
+  font-family: Open Sans;
+  letter-spacing: 2px;
+  height: 65px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  position: absolute;
+  width: 100%; }
+  .nav-desktop .nav-desktop-menu {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 20px;
+    float: right;
+    margin-right: 2vw; }
+    .nav-desktop .nav-desktop-menu li {
+      margin-left: 30px; }
+    .nav-desktop .nav-desktop-menu a {
+      color: #fff;
+      font-size: 0.9em; }
+    .nav-desktop .nav-desktop-menu a:hover {
+      text-decoration: none; }
+
+/*# sourceMappingURL=nav.css.map */

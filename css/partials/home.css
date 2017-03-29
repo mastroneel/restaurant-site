@@ -1,0 +1,100 @@
+.after-hero-content {
+  background-image: url("../img/pizza-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  font-family: Open Sans;
+  height: 70vh; }
+  .after-hero-content h2 {
+    padding-top: 20vh;
+    padding-bottom: 2.5vh;
+    padding-left: 2vw; }
+  .after-hero-content p {
+    font-size: 1.1em;
+    padding-left: 4vw; }
+
+.four-square-grid {
+  font-family: Open Sans;
+  height: 200vh;
+  background-color: #d3dadb;
+  padding-left: 6vw;
+  padding-right: 4vw; }
+  .four-square-grid .image-block-1, .four-square-grid .caption-block-1 {
+    margin-top: 19.5vh; }
+  .four-square-grid .image-block, .four-square-grid .caption-block {
+    height: 80vh;
+    width: 45vw; }
+  .four-square-grid .image-block-1 {
+    background-image: url("../img/italian-6.jpeg"); }
+  .four-square-grid .image-block-2 {
+    background-image: url("../img/italian-8.jpeg"); }
+  .four-square-grid .caption-block {
+    padding-top: 22vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #372c2c; }
+    .four-square-grid .caption-block h1, .four-square-grid .caption-block p {
+      color: #fff;
+      margin-bottom: 0; }
+    .four-square-grid .caption-block h1 {
+      font-size: 1.9em; }
+    .four-square-grid .caption-block p {
+      padding-right: 3vw;
+      padding-top: 2vh; }
+  .four-square-grid img {
+    height: 4px;
+    width: 100px; }
+
+.menu-categories {
+  height: 180vh;
+  padding: 0; }
+  .menu-categories .menu-image-1, .menu-categories .menu-image-2, .menu-categories .menu-image-3, .menu-categories .menu-image-4 {
+    padding: 0; }
+  .menu-categories .menu-image-1 {
+    background-image: url("../img/italian-11.jpg");
+    height: 90vh; }
+  .menu-categories .menu-image-2 {
+    background-image: url("../img/italian-2.jpg");
+    height: 90vh; }
+  .menu-categories .menu-image-3 {
+    background-image: url("../img/italian-5.jpeg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .menu-categories .menu-image-4 {
+    background-image: url("../img/dessert-1.jpeg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .menu-categories .menu-nav {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -ms-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+    max-height: 100%; }
+    .menu-categories .menu-nav:hover {
+      max-height: 80px;
+      -webkit-transition: max-height 0.5s;
+      -moz-transition: max-height 0.5s;
+      -ms-transition: max-height 0.5s;
+      -o-transition: max-height 0.5s;
+      transition: max-height 0.5s;
+      overflow: hidden; }
+    .menu-categories .menu-nav:active {
+      max-height: 80px; }
+    .menu-categories .menu-nav a {
+      float: right;
+      padding-right: 3vw;
+      padding-top: 2vh;
+      font-family: Open Sans;
+      font-size: 2.2em;
+      color: #fff; }
+    .menu-categories .menu-nav a:link, .menu-categories .menu-nav a:hover, .menu-categories .menu-nav a:visited, .menu-categories .menu-nav a:active, .menu-categories .menu-nav a:after, .menu-categories .menu-nav a:focus {
+      text-decoration: none; }
+
+/*# sourceMappingURL=home.css.map */
