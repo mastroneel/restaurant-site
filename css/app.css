@@ -7,6 +7,12 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Nixie+One");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Bitter");
+@import url("https://fonts.googleapis.com/css?family=Quattrocento");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8144,7 +8150,10 @@ button.close {
   height: 120vh;
   min-height: 445px;
   z-index: 1; }
+  #hero .header-side {
+    width: 37vw; }
   #hero .header {
+    width: 350px;
     margin-top: 25vh;
     border-radius: 3px;
     padding-top: 12px;
@@ -8176,12 +8185,12 @@ button.close {
         border-top: 2px solid #fff; }
       #hero .header .header-top .top-content {
         flex: 0 0 70px;
-        margin-top: -20px;
+        margin-top: -27px;
         text-align: center; }
         #hero .header .header-top .top-content img {
-          width: 85px;
-          padding-left: 6px;
-          padding-right: 6px; }
+          width: 90px;
+          margin-left: 24px;
+          margin-right: 22px; }
     #hero .header .header-bottom {
       display: flex;
       flex-direction: row;
@@ -8208,18 +8217,19 @@ button.close {
         margin-top: -42px;
         text-align: center; }
         #hero .header .header-bottom .bottom-content img {
-          width: 85px;
-          padding-left: 6px;
-          padding-right: 6px;
-          margin-bottom: -68px; }
+          width: 100px;
+          margin-left: 11px;
+          margin-right: 9px;
+          margin-bottom: -65px; }
     #hero .header h1 {
-      font-family: 'Nixie One';
-      font-size: 6em;
-      letter-spacing: 5px; }
+      font-family: 'Amatic SC';
+      font-size: 7em;
+      letter-spacing: 20px;
+      line-height: 1; }
   #hero .address-row {
     margin-top: 10vh; }
     #hero .address-row .address {
-      font-family: Open Sans;
+      font-family: 'Quattrocento';
       font-size: 1.3em;
       letter-spacing: 1px;
       text-align: center;
@@ -8249,12 +8259,12 @@ button.close {
       text-decoration: none; }
 
 .after-hero-content {
-  background-image: url("../img/pizza-background.png");
+  background-image: url("../img/pasta-background-3.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: Open Sans;
+  font-family: 'Quattrocento';
   height: 70vh; }
   .after-hero-content h2 {
     padding-top: 20vh;
@@ -8265,7 +8275,6 @@ button.close {
     padding-left: 4vw; }
 
 .four-square-grid {
-  font-family: Open Sans;
   height: 200vh;
   background-color: #d3dadb;
   padding-left: 6vw;
@@ -8279,22 +8288,29 @@ button.close {
     background-image: url("../img/italian-6.jpeg"); }
   .four-square-grid .image-block-2 {
     background-image: url("../img/italian-8.jpeg"); }
+  .four-square-grid .caption-block-1 img {
+    height: 4px;
+    width: 284px; }
+  .four-square-grid .caption-block-2 img {
+    height: 4px;
+    width: 243px; }
   .four-square-grid .caption-block {
     padding-top: 22vh;
     padding-left: 3vw;
     padding-right: 3vw;
-    background-color: #2e2f44; }
+    background-color: #363739; }
     .four-square-grid .caption-block h1, .four-square-grid .caption-block p {
       color: #fff;
       margin-bottom: 0; }
     .four-square-grid .caption-block h1 {
-      font-size: 1.9em; }
+      font-family: 'Amatic SC';
+      font-size: 4em; }
     .four-square-grid .caption-block p {
+      font-family: 'Quattrocento';
+      font-size: 1.2em;
+      padding-left: 1.5vw;
       padding-right: 3vw;
       padding-top: 2vh; }
-  .four-square-grid img {
-    height: 4px;
-    width: 100px; }
 
 .menu-categories {
   height: 180vh;
@@ -8358,7 +8374,7 @@ button.close {
       float: right;
       padding-right: 3vw;
       padding-top: 2vh;
-      font-family: Open Sans;
+      font-family: 'Quattrocento';
       font-size: 2.2em;
       color: #fff; }
     .menu-categories .menu-nav a:link, .menu-categories .menu-nav a:hover, .menu-categories .menu-nav a:visited, .menu-categories .menu-nav a:active, .menu-categories .menu-nav a:after, .menu-categories .menu-nav a:focus {
@@ -8370,15 +8386,14 @@ button.close {
   .specials h1 {
     float: right;
     padding-top: 5vh;
-    font-family: Open Sans;
+    font-family: 'Quattrocento';
     padding-right: 5vw; }
   .specials h2 {
-    float: right;
-    font-family: Open Sans;
+    font-family: 'Quattrocento';
     color: #fff;
     font-size: 1.8em;
-    padding-right: 1.5vw;
-    padding-top: 58%; }
+    padding-left: 1.5vw;
+    padding-top: 50%; }
   .specials .special-1, .specials .special-2 {
     width: 35vw;
     height: 50vh;
@@ -8391,11 +8406,21 @@ button.close {
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/risotto.jpg");
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/risotto.jpg");
     background-size: cover; }
+    .specials .special-1 img {
+      margin-top: -60px;
+      padding-left: 1.7vw;
+      height: 3px;
+      width: 185px; }
   .specials .special-2 {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/amatriciana.jpeg");
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/amatriciana.jpeg");
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/amatriciana.jpeg");
     background-size: cover; }
+    .specials .special-2 img {
+      margin-top: -60px;
+      padding-left: 1.7vw;
+      height: 3px;
+      width: 295px; }
 
 .join-us {
   height: 80vh;
@@ -8407,11 +8432,13 @@ button.close {
   background-attachment: fixed; }
   .join-us h1, .join-us p {
     text-align: center;
-    color: #fff;
-    font-family: Open Sans; }
+    color: #fff; }
   .join-us h1 {
+    font-family: 'Amatic SC';
+    font-size: 6em;
     padding-top: 9vh; }
   .join-us p {
+    font-family: 'Quattrocento';
     padding-left: 20vw;
     padding-right: 20vw;
     padding-top: 4vh;
@@ -8425,7 +8452,7 @@ button.close {
   min-height: 300px;
   text-align: center; }
   .footer p {
-    font-family: Open Sans;
+    font-family: 'Quattrocento';
     margin-top: 30vh; }
   .footer ul {
     list-style-type: none;

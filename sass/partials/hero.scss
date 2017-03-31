@@ -18,7 +18,11 @@
   height: 120vh;
   min-height: 445px;
   z-index: 1;
+  .header-side {
+    width: 37vw;
+  }
   .header {
+    width: 350px;
     margin-top: 25vh;
     border-radius: 3px;
     padding-top: 12px;
@@ -52,12 +56,12 @@
         }
         .top-content {
           flex: 0 0 70px;
-          margin-top: -20px;
+          margin-top: -27px;
           text-align: center;
           img {
-            width: 85px;
-            padding-left: 6px;
-            padding-right: 6px;
+            width: 90px;
+            margin-left: 24px;
+            margin-right: 22px;
           }
         }
       }
@@ -89,23 +93,26 @@
           margin-top: -42px;
           text-align: center;
           img {
-            width: 85px;
-            padding-left: 6px;
-            padding-right: 6px;
-            margin-bottom: -68px;
+            width: 100px;
+            margin-left: 11px;
+            margin-right: 9px;
+            margin-bottom: -65px;
           }
         }
     }
     h1 {
-      font-family: 'Nixie One';
-      font-size: 6em;
-      letter-spacing: 5px;
+      // font-family: 'Raleway';
+      font-family: 'Amatic SC';
+      font-size: 7em;
+      letter-spacing: 20px;
+      line-height: 1;
     }
   }
   .address-row {
     margin-top: 10vh;
     .address {
-      font-family: Open Sans;
+      // font-family: 'Bitter';
+      font-family: 'Quattrocento';
       font-size: 1.3em;
       letter-spacing: 1px;
       text-align: center;

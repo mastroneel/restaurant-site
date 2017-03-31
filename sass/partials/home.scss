@@ -1,10 +1,10 @@
 .after-hero-content {
-	background-image: url("../img/pizza-background.png");
+	background-image: url("../img/pasta-background-3.jpeg");
 	background-size: cover;
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
-	font-family: Open Sans;
+	font-family: 'Quattrocento';
 	height: 70vh;
 	h2 {
 		padding-top: 20vh;
@@ -17,8 +17,12 @@
 	}
 }
 
+
+// ****************
+// FOUR SQUARE GRID
+// ****************
+
 .four-square-grid {
-	font-family: Open Sans;
 	height: 200vh;
 	background-color: #d3dadb;
 	padding-left: 6vw;
@@ -37,28 +41,37 @@
 		background-image: url('../img/italian-8.jpeg');
 	}
 	.caption-block-1 {
-	
+		img {
+			height: 4px;
+			width: 284px;
+		}
+	}
+	.caption-block-2 {
+		img {
+			height: 4px;
+			width: 243px;
+		}
 	}
 	.caption-block {
 		padding-top: 22vh;
 		padding-left: 3vw;
 		padding-right: 3vw;
-		background-color: #2e2f44;
+		background-color: #363739;
 		h1, p {
 			color: #fff;
 			margin-bottom: 0;
 		}
 		h1 {
-			font-size: 1.9em;
+			font-family: 'Amatic SC';
+			font-size: 4em;
 		}
 		p {
+			font-family: 'Quattrocento';
+			font-size: 1.2em;
+			padding-left: 1.5vw;
 			padding-right: 3vw;
 			padding-top: 2vh;
 		}
-	}
-	img {
-		height: 4px;
-		width: 100px;
 	}
 }
 
@@ -137,7 +150,7 @@
 			float: right;
 			padding-right: 3vw;
 			padding-top: 2vh;
-			font-family: Open Sans;
+			font-family: 'Quattrocento';
 			font-size: 2.2em;
 			color: #fff;
 		}
@@ -158,16 +171,15 @@
 	h1 {
 		float: right;
 		padding-top: 5vh;
-		font-family: Open Sans;
+		font-family: 'Quattrocento';
 		padding-right: 5vw;
 	}
 	h2 {
-		float: right;
-		font-family: Open Sans;
+		font-family: 'Quattrocento';
 		color: #fff;
 		font-size: 1.8em;
-		padding-right: 1.5vw;
-		padding-top: 58%;
+		padding-left: 1.5vw;
+		padding-top: 50%;
 	}
 	.special-1, .special-2 {
 		width: 35vw;
@@ -188,6 +200,12 @@
       		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 			url('../img/risotto.jpg');
 		background-size: cover;
+		img {
+			margin-top: -60px;
+			padding-left: 1.7vw;
+			height: 3px;
+			width: 185px;
+		}
 	}
 	.special-2 {
 		background:
@@ -200,6 +218,12 @@
 			linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 	    url('../img/amatriciana.jpeg');
 		background-size: cover;
+		img {
+			margin-top: -60px;
+			padding-left: 1.7vw;
+			height: 3px;
+			width: 295px;
+		}
 	}
 }
 
@@ -225,12 +249,14 @@
 	h1, p {
 		text-align: center;
 		color: #fff;
-		font-family: Open Sans;
 	}
 	h1 {
+		font-family: 'Amatic SC';
+		font-size: 6em;
 		padding-top: 9vh;
 	}
 	p {
+		font-family: 'Quattrocento';
 		padding-left: 20vw;
 		padding-right: 20vw;
 		padding-top: 4vh;
@@ -251,7 +277,7 @@
 	min-height: 300px;
 	text-align: center;
 	p {
-		font-family: Open Sans;
+		font-family: 'Quattrocento';
 		margin-top: 30vh;
 	}
 	ul {
